@@ -1,0 +1,61 @@
+.header{
+	height: 175px;
+	/*background-color: red;*/
+	color:black;
+	font-weight: bold;
+	font-family: serif tahoma;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 0px;
+	text-shadow: 0 0 10px red;
+}
+nav{
+	height: 100px;
+	/*background-color: violet;
+*/
+}
+.nav ul{
+	margin:0;
+}
+.nav a{
+	display: inline-block;
+	padding: .5em;
+	/*color: white;*/
+	text-decoration: none;
+
+}
+.nav li{
+	display: inline;
+	text-transform: capitalize;
+	padding: .5em;
+	font-weight: bold;
+}
+.nav a:hover{
+	background-color: tomato;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 550px;
+}
+.content{
+	text-align: center;
+	font-size: medium;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 0.5em;
+}
+.main-footer{
+	background-color: #56ccf2;
+	color: white;
+	
+	
+}
+.lakes{
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin: 15px;
+	border-radius: 50%;
+}
